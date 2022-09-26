@@ -1,3 +1,3 @@
 server:
   port: 9000
-  hostname: sample-service2-v2.charles3.svc.cluster.local
+  hostname: sample-service2-v2.charles-mesh.svc.cluster.local
