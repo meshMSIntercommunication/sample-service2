@@ -23,5 +23,5 @@ RUN mvn package -Dmaven.test.skip=true
 
 FROM openjdk:11-jdk
 COPY --from=0 /build/target/sampleService2.jar /app/target/sampleService2.jar
-EXPOSE 9002
+EXPOSE 9000
 ENTRYPOINT [ "java", "-jar", "/app/target/sampleService2.jar"]
