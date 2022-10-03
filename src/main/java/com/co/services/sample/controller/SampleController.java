@@ -9,6 +9,7 @@ public class SampleController {
 	
 	@GetMapping("/")
 	public String sampleApi() {
+		System.out.println("Hit microservice 2");
 		return "Sample Microservice 2 " + new Date().getTime();
 	}
 	
